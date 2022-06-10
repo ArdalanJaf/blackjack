@@ -1,6 +1,6 @@
 # BlackJack
 
-Blackjack app built in a week to learn functional-based programming.
+Blackjack app built in a week to learn functional-based programming, during Autumn 2021.
 
 ## Software
 
