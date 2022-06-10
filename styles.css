@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 700;
+  background-color: lightgrey;
+}
+
+#startGameBox {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0; /* this is the "start game button" */
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 7vh;
+  margin-bottom: 10px;
+}
+
+#messageBox {
+  text-align: center;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  border: solid 4px darkgrey;
+  width: 50vh;
+  margin: auto;
+  background: white;
+}
+
+#messageText {
+  background: white;
+}
+
+.handTitle {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#dealerScore, #playerScore {
+  color: darkred;
+}
+
+#playerTurnButtons {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+button {
+  width: 25vh;
+  background-color: lightgrey;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+/* Hassar Ali, a relative who is also learning to code, 
+helped me get the card stacking to work with the settings below. 
+This will enable the layout to work on a mobile screen. */
+
+.hand {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 35vh;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  min-width: 35px;
+}
+
+.card:last-child {
+  min-width: auto;
+}
+
+img {
+  max-height: 100%;
+  border-radius: 10px;
+}
